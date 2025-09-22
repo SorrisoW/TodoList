@@ -2,8 +2,8 @@
 
 
 body {
-    background-color: #37353E;
-    color: #D3DAD9;
+    background-color: #403b2e;
+    color: #eff3b9;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 1.8rem;
@@ -14,14 +14,14 @@ body {
 }
 
 h1 {
-    color: #D3DAD9;
+    color: #eff3b9;
     text-align: center;
 }
 
 
 form#todo-form {
-    background-color: #715A5A;
-    border: 1px solid #715A5A;
+    background-color: #73915e;
+    border: 1px solid #343632;
     border-radius: 15px;
     padding: 1.5rem;
     width: 100%;
@@ -43,11 +43,11 @@ form#todo-form {
 
 #todo-form label {
     font-size: 1rem;
-    color: #D3DAD9;
+    color: #eff3b9;
 }
 
 #todo-form input#title {
-    background-color: #44444E;
+    background-color: #c2c86f;
     border: 1px solid #000000;
     color: #ffffff;
     padding: 0.8rem;
@@ -62,18 +62,18 @@ form#todo-form {
 }
 
 #todo-form .btn-submit {
-    background-color: #000000;
-    color: #1a1a1a;
+    background-color: #0000005d;
+    border: 1px solid #000000;
+    color: #eff3b9;
     font-weight: 600;
     padding: 0.75rem;
-    border: none;
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
 }
 
 #todo-form .btn-submit:hover {
-    background-color: #715A5A;
+    background-color: #000000;
     transform: translateY(-2px);
 }
 
@@ -89,7 +89,7 @@ ul#todo-list {
 }
 
 .todo-item {
-    background-color: #59002D;
+    background-color: #706747;
     padding: 1rem 1.25rem;
     border-radius: 15px;
     display: flex;
@@ -105,8 +105,8 @@ ul#todo-list {
 }
 
 .todo-item.done {
-    background-color: #59002D;
-    opacity: 0.7;
+    background-color: #c2c86f36;
+    opacity: 0.9;
 }
 
 .todo-item .toggle {
@@ -114,15 +114,15 @@ ul#todo-list {
     -webkit-appearance: none;
     width: 24px;
     height: 24px;
-    border: 2px solid #00e6a1;
+    border: 2px solid #343632;
     border-radius: 6px;
     cursor: pointer;
     position: relative;
 }
 
 .todo-item .toggle:checked {
-    background-color: #e400e4;
-    border-color: #e400e4;
+    background-color: #c2c86f;
+    border-color: #c2c86f;
 }
 
 .todo-item .toggle:checked::after {
@@ -138,7 +138,7 @@ ul#todo-list {
 .todo-item .title {
     flex-grow: 1;
     font-size: 1rem;
-    color: #ffffff;
+    color: #eff3b9;
 }
 
 .todo-item.done .title {
@@ -147,8 +147,8 @@ ul#todo-list {
 }
 
 .todo-item .remove-btn {
-    background-color: #00e6a1;
-    color: #ffffff;
+    background-color: #343632;
+    color: #eff3b9;
     font-weight: bold;
     border: none;
     border-radius: 50%;
